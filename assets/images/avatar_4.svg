@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <linearGradient id="grad_GP" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1C326E"/>
+      <stop offset="100%" stop-color="#0A1128"/>
+    </linearGradient>
+  </defs>
+  <circle cx="80" cy="80" r="76" fill="url(#grad_GP)" stroke="#FFD200" stroke-width="4"/>
+  <text x="80" y="93" fill="#FFD200" font-family="'Plus Jakarta Sans', Inter, sans-serif" font-size="44" font-weight="800" text-anchor="middle">GP</text>
+</svg>

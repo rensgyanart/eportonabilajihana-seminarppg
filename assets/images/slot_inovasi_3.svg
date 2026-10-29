@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="inovGrad_slot_ino" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1128" />
+      <stop offset="100%" stop-color="#152754" />
+    </linearGradient>
+    <pattern id="inovGrid_slot_ino" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="rgba(255, 210, 0,0.06)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#inovGrad_slot_ino)"/>
+  <rect width="800" height="600" fill="url(#inovGrid_slot_ino)"/>
+  
+  <rect x="24" y="24" width="752" height="552" rx="24" fill="none" stroke="rgba(255, 210, 0, 0.3)" stroke-width="2"/>
+  
+  <!-- Pill tag -->
+  <rect x="50" y="55" width="310" height="36" rx="18" fill="#FFD200"/>
+  <text x="75" y="79" fill="#0A1128" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" letter-spacing="1">TAHAP 3: PROTOTIPE MEDIA</text>
+  
+  <!-- Main Title -->
+  <text x="50" y="160" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="26" font-weight="800" letter-spacing="-0.5">ECO LUDO DKV INNOVATION</text>
+  
+  <!-- Description card -->
+  <rect x="50" y="195" width="700" height="230" rx="20" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+  <text x="80" y="245" fill="#FFD200" font-family="'Inter', sans-serif" font-size="14" font-weight="700">FOKUS PENGEMBANGAN INOVASI:</text>
+  
+  <text x="80" y="285" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="19" font-weight="700">Board Game Eco Ludo Berbahan Material Daur Ulang</text>
+  
+  <text x="80" y="335" fill="rgba(255,255,255,0.7)" font-family="'Inter', sans-serif" font-size="14">Mata Pelajaran: Konsentrasi Keahlian Desain Komunikasi Visual (DKV)</text>
+  <text x="80" y="370" fill="rgba(255,255,255,0.7)" font-family="'Inter', sans-serif" font-size="14">Target Subjek: Peserta Didik Kelas XI DKV 2 SMK Muhammadiyah 1 Yogyakarta</text>
+  
+  <!-- Footer badge -->
+  <rect x="50" y="475" width="700" height="54" rx="16" fill="rgba(255, 210, 0, 0.12)" stroke="rgba(255, 210, 0, 0.3)" stroke-width="1"/>
+  <circle cx="78" cy="502" r="6" fill="#FFD200"/>
+  <text x="96" y="507" fill="#FFD200" font-family="'Inter', sans-serif" font-size="13" font-weight="700"> ✓  Papan Permainan • Pion &amp; Dadu Ramah Lingkungan • Kartu Tantangan Desain</text>
+</svg>

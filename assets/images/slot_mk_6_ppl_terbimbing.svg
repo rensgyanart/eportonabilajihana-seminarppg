@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1128" />
+      <stop offset="100%" stop-color="#101E42" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+  <rect width="800" height="500" fill="url(#grid)"/>
+  <circle cx="700" cy="80" r="140" fill="rgba(255, 210, 0, 0.05)" filter="blur(30px)"/>
+  
+  <!-- Border subtle -->
+  <rect x="20" y="20" width="760" height="460" rx="20" fill="none" stroke="rgba(255, 210, 0, 0.25)" stroke-width="1.5" stroke-dasharray="6 4"/>
+  
+  <!-- Header badge -->
+  <rect x="50" y="55" width="280" height="34" rx="17" fill="rgba(255, 210, 0, 0.15)"/>
+  <circle cx="72" cy="72" r="5" fill="#FFD200"/>
+  <text x="88" y="77" fill="#FFD200" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" letter-spacing="1.5">ARTEFAK UNGGULAN SEMINAR</text>
+  
+  <!-- Course Title -->
+  <text x="50" y="150" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">PPL TERBIMBING (SMK MUH 1 YOGYAKARTA)</text>
+  
+  <!-- Subtitle / Artifact description -->
+  <rect x="50" y="180" width="700" height="150" rx="16" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="80" y="225" fill="#FFD200" font-family="'Inter', sans-serif" font-size="14" font-weight="700">DOKUMEN BUKTI DUKUNG ARTEFAK:</text>
+  <text x="80" y="260" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="17" font-weight="700">Jurnal Refleksi Pembelajaran Siklus 1-3</text>
+  <text x="80" y="295" fill="rgba(255,255,255,0.65)" font-family="'Inter', sans-serif" font-size="13">Tervalidasi LMS Seminar PPG  •  Bidang Studi DKV FKIP UST</text>
+  
+  <!-- Bottom tags -->
+  <rect x="50" y="380" width="700" height="50" rx="12" fill="rgba(255, 210, 0, 0.08)"/>
+  <text x="80" y="411" fill="#FFD200" font-family="'Inter', sans-serif" font-size="13" font-weight="700"> ✓  Team Teaching • Asesmen Diagnostik • Co-Pilot</text>
+</svg>
