@@ -726,28 +726,29 @@ button {
 .hero-photo-wrapper {
   position: relative;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  height: 100%;
+  display: block;
 }
 
 .hero-portrait-box {
   width: 100%;
-  max-width: 440px;
-  aspect-ratio: 3 / 4;
+  max-width: 380px;
+  aspect-ratio: 4 / 5;
   height: auto;
   border-radius: var(--radius-xl);
   box-shadow: 0 20px 48px rgba(0, 0, 0, 0.12);
   position: relative;
   overflow: hidden;
   margin: 0 auto;
+  background: transparent;
 }
 
 .hero-img-element {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center top;
+  display: block;
   transition: transform var(--transition-slow);
 }
 
@@ -1018,6 +1019,7 @@ button {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 20%;
 }
 
 /* Aurevo Signature 3D Horizontal Shutter / Scanline Overlay (Frame 30) */
@@ -2582,7 +2584,7 @@ button {
 
   .hero-portrait-box {
     max-width: 380px;
-    aspect-ratio: 3 / 4;
+    aspect-ratio: 4 / 5;
     height: auto;
     margin: 0 auto;
   }
@@ -3493,21 +3495,16 @@ button {
   color: var(--text-muted);
 }
 
-/* Subtle Scanlines Overlay */
+/* Subtle Scanlines Overlay (Hapus Strip) */
 .scanlines-overlay {
-  height: 36% !important;
+  display: none !important;
 }
 
-.scanline-slat {
-  height: 3px !important;
-  background: rgba(255, 255, 255, 0.35) !important;
-}
-
-/* Hero Portrait Box Height & Align */
+/* Hero Portrait Box Height & Align (Pas Foto 4:5 - Tanpa Bar Bawah) */
 .hero-portrait-box {
   max-width: 380px !important;
-  aspect-ratio: 3 / 4 !important;
-  background: var(--dark-card);
+  aspect-ratio: 4 / 5 !important;
+  background: transparent !important;
 }
 
 /* Footer High Contrast */
