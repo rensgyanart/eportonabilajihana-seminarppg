@@ -1171,38 +1171,31 @@ button {
 }
 
 .stacking-cards-wrapper {
-  width: min(94%, 1340px);
-  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
   position: relative;
 }
 
-/* Individual Stacking Card */
+/* Individual Inovasi Card - Smooth Stream Flow (Laptop & Desktop Friendly) */
 .stack-card {
-  position: sticky;
+  position: relative !important;
+  top: auto !important;
   border-radius: var(--radius-xl);
   background-color: var(--card-white);
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
-  margin-bottom: 50px;
-  transition: transform var(--transition-fast);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
+  margin-bottom: 36px;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
   overflow: hidden;
 }
 
-/* Top sticky cascading positions based on --stack-index */
-.stack-card:nth-of-type(1),
-.stack-card[style*="--stack-index: 1"] {
-  top: 90px;
+.stack-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.09);
 }
-.stack-card:nth-of-type(2),
-.stack-card[style*="--stack-index: 2"] {
-  top: 115px;
-}
-.stack-card:nth-of-type(3),
-.stack-card[style*="--stack-index: 3"] {
-  top: 140px;
-}
-.stack-card:nth-of-type(4),
-.stack-card[style*="--stack-index: 4"] {
-  top: 165px;
+
+.stack-card:last-child {
+  margin-bottom: 0;
 }
 
 /* Alternating Border Styles (Signature Aurevo Look) */
@@ -1220,9 +1213,9 @@ button {
 
 .card-inner-grid {
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  gap: 40px;
-  padding: 40px;
+  grid-template-columns: 1.18fr 0.82fr;
+  gap: 28px;
+  padding: 24px 32px 32px 32px;
   align-items: center;
 }
 
@@ -1377,14 +1370,22 @@ button {
 .split-container {
   display: grid;
   grid-template-columns: 1fr 1.35fr;
-  gap: 60px;
+  gap: 48px;
   align-items: start;
 }
 
 /* Sticky Left Sidebar Column */
 .split-col-sticky {
   position: sticky;
-  top: 100px;
+  top: 95px;
+  max-height: calc(100vh - 110px);
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.split-col-sticky::-webkit-scrollbar {
+  display: none;
 }
 
 .sticky-sidebar-box {
@@ -4185,4 +4186,16 @@ button {
   color: var(--text-muted) !important;
   border: 1px solid rgba(10, 17, 40, 0.1) !important;
   text-transform: uppercase !important;
+}
+
+/* ==========================================================================
+   DESKTOP VIEWPORT LOCK (HP / MOBILE AUTOMATIC DESKTOP RENDERING)
+   ========================================================================== */
+html {
+  min-width: 1200px;
+}
+
+body.aurevo-body {
+  min-width: 1200px;
+  overflow-x: auto;
 }
