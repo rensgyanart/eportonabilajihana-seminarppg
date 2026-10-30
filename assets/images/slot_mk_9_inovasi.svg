@@ -21,15 +21,15 @@
   <text x="88" y="77" fill="#FFD200" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" letter-spacing="1.5">ARTEFAK UNGGULAN SEMINAR</text>
   
   <!-- Course Title -->
-  <text x="50" y="150" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">INOVASI KEJURUAN DKV (ECO LUDO)</text>
+  <text x="50" y="150" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">INOVASI KEJURUAN DKV (DKV QUEST DECK)</text>
   
   <!-- Subtitle / Artifact description -->
   <rect x="50" y="180" width="700" height="150" rx="16" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
   <text x="80" y="225" fill="#FFD200" font-family="'Inter', sans-serif" font-size="14" font-weight="700">DOKUMEN BUKTI DUKUNG ARTEFAK:</text>
-  <text x="80" y="260" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="17" font-weight="700">Media Pembelajaran Board Game Eco Ludo Daur Ulang</text>
+  <text x="80" y="260" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="17" font-weight="700">Media Pembelajaran Gamifikasi Kartu "DKV Quest Deck"</text>
   <text x="80" y="295" fill="rgba(255,255,255,0.65)" font-family="'Inter', sans-serif" font-size="13">Tervalidasi LMS Seminar PPG  •  Bidang Studi DKV FKIP UST</text>
   
   <!-- Bottom tags -->
   <rect x="50" y="380" width="700" height="50" rx="12" fill="rgba(255, 210, 0, 0.08)"/>
-  <text x="80" y="411" fill="#FFD200" font-family="'Inter', sans-serif" font-size="13" font-weight="700"> ✓  Game-Based Learning • Sustainability • Kejuruan</text>
+  <text x="80" y="411" fill="#FFD200" font-family="'Inter', sans-serif" font-size="13" font-weight="700"> ✓  Game-Based Learning • Roleplay Agensi • Scaffolding Berdiferensiasi</text>
 </svg>

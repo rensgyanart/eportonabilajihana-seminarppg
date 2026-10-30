@@ -18,7 +18,7 @@
   <text x="75" y="79" fill="#0A1128" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" letter-spacing="1">TAHAP 4: IMPLEMENTASI &amp; EVALUASI</text>
   
   <!-- Main Title -->
-  <text x="50" y="160" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="26" font-weight="800" letter-spacing="-0.5">ECO LUDO DKV INNOVATION</text>
+  <text x="50" y="160" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="26" font-weight="800" letter-spacing="-0.5">DKV QUEST DECK INNOVATION</text>
   
   <!-- Description card -->
   <rect x="50" y="195" width="700" height="230" rx="20" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
@@ -32,5 +32,5 @@
   <!-- Footer badge -->
   <rect x="50" y="475" width="700" height="54" rx="16" fill="rgba(255, 210, 0, 0.12)" stroke="rgba(255, 210, 0, 0.3)" stroke-width="1"/>
   <circle cx="78" cy="502" r="6" fill="#FFD200"/>
-  <text x="96" y="507" fill="#FFD200" font-family="'Inter', sans-serif" font-size="13" font-weight="700"> ✓  100% Partisipasi Aktif • Suasana Belajar Menyenangkan • Kolaborasi Tim</text>
+  <text x="96" y="507" fill="#FFD200" font-family="'Inter', sans-serif" font-size="13" font-weight="700"> ✓  91% Ketuntasan Belajar • 85% Fokus Tugas • Beban Guru Berkurang 60%</text>
 </svg>
